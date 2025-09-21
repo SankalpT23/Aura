@@ -1,76 +1,55 @@
-# Welcome to your Lovable project
 
-## Project info
+# Aura 2.0: A Real-Time Market Analysis Engine
 
-**URL**: https://lovable.dev/projects/eca35d99-2756-4d61-87ea-0804cd1473f4
+Aura 2.0 is a comprehensive, real-time market analysis engine that correlates live price movements with recent news to provide actionable insights. The core of the project is the pathway, a seamless user journey that transforms raw market data into a clear, concise, and actionable narrative, guiding traders and investors toward informed decisions. It uses a modern, full-stack architecture to deliver this experience.
 
-## How can I edit this code?
+🚀 Key Features
+1.AI-Powered Insight Pathway: A proprietary system that creates a clear, logical flow from raw data to actionable insights, making market analysis intuitive and effective.
 
-There are several ways of editing your application.
+2.Real-Time Stock Analysis: Fetches live stock data and generates an insightful, AI-powered narrative on demand.
 
-**Use Lovable**
+3.AI-Powered Narrative Generation: Utilizes language models and vector search to explain how specific news headlines are impacting a stock's price.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/eca35d99-2756-4d61-87ea-0804cd1473f4) and start prompting.
+4.Hybrid API: Offers a standard REST API for one-time analysis and a WebSocket for a continuous, real-time data stream.
 
-Changes made via Lovable will be committed automatically to this repo.
+5.Scalable Full-Stack Architecture: Built with a modern tech stack to ensure high performance and seamless user experience.
 
-**Use your preferred IDE**
+# 🛠️ Technology Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Frontend:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+# Backend:
 
-Simply open [Lovable](https://lovable.dev/projects/eca35d99-2756-4d61-87ea-0804cd1473f4) and click on Share -> Publish.
+- Node.js & Express
 
-## Can I connect a custom domain to my Lovable project?
+- Mongoose
 
-Yes, you can!
+- MongoDB
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# AI/Data:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Python 3.11
 
-<!-- BACKEND: document API base URLs, auth flow, and environment variables here -->
-<!-- AIML: document model endpoints, prompt schemas, and streaming behavior here -->
+- FastAPI
+
+- sentence-transformers, faiss
+
+- yfinance
+
+- WebSockets
+
+# 📂 Project Structure
+
+The project is organized into three main directories to manage the different components of the full-stack application:
+
+- frontend/: Contains the React application for the user interface.
+
+- backend/: Houses the Node.js and Express server that handles API requests and database interactions.
+
+- ai-service/: Manages the Python and FastAPI microservice responsible for the AI-powered data analysis.
+
+
+
+
